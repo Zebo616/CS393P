@@ -1,0 +1,5 @@
+#lang rosette
+
+(define (read-in-data filename)
+  
+)

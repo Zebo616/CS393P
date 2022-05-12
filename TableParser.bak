@@ -1,0 +1,16 @@
+#lang rosette
+
+; this file will take a list of lists and convert them into "category" structs, based on the entries.
+
+(define-struct category (cat))
+
+(make-category "hello")
+
+(let ([cat (make-category "hello")])
+  print (cat-cat)
+)
+
+
+;(let ([name "James"])
+;  print (is_first_name name)
+;)
